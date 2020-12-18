@@ -1,0 +1,17 @@
+package DadosCombustivel;
+
+public class combustivel {
+
+	private String 	combustivel;
+	private double 	valorLitro;
+	private double	qtdeLitro;
+	private double	valorTotal;
+	
+	
+	
+	
+	
+	
+	
+	
+}

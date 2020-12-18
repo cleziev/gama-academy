@@ -1,0 +1,23 @@
+
+public class EmpregaAumento {
+	public static void main(String[] args) {
+		
+		Empregado e1 = new Empregado();
+		
+		e1.Nome = "Joao";
+		e1.Cargo = "Chefe";
+		e1.Salario = 1450.00;
+		
+		System.out.println("ORDENADO ANTES DO AUMENTO");
+		e1.imprimir();
+		
+		System.out.println("------> Aumento salario em 15% <-----");
+		e1.aumentarSalario(15.0);
+		
+		System.out.println("-----> Ordenado depios do aumento <-----");
+		e1.imprimir();
+		
+		
+		
+	}
+}

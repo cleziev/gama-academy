@@ -1,0 +1,77 @@
+/* comandos  de pré formatação CSS */
+
+    p{
+        color: blue;
+        font-size: 14px;    
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        /*background-color: yellow;*/
+    }
+    body{
+
+        background-image: "../image/logo.png";
+    }
+        /* o ponto. serve para vc criar uma classe*/ 
+    .menu{
+        color: rgb(34, 33, 33);
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight:bold;
+
+    }
+    
+    .lista{
+        color: rgb(253, 186, 186);
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+    label{
+        font-weight: bold;
+        color: rgb(87, 22, 22) ;
+        font-size: 12px;
+    }
+    /* estamos utilizando o "#", pois o formulario jah tinha um ID criado e estamos
+    chamando ele*/
+    #form_contato{
+                background-color: bisque;
+
+    }
+
+    span{
+        font-weight: bold;
+        color: rgb(87, 22, 22) ;
+        font-size: 12px;
+
+    }
+    .campo_insert{
+        position: absolute; 
+        left:80px;
+        background: white;
+        width: 250px;
+
+    }
+
+    .container{
+        border: 3px solid red;
+        width: 500px;
+
+    }
+
+    .div1{
+        background-color: yellow;
+    }
+
+    .div2{
+        background-color: green;
+    }
+
+    .div3{
+        background-color: rgb(143, 143, 207);
+    }
+
+    .div4{
+        background-color: red;
+
+    }

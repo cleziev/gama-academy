@@ -1,0 +1,42 @@
+package model;
+
+	public class CashBack extends CartaoPrePago{
+		
+		private String modelo;
+		
+		
+		public CashBack(String numCartao, String nomeTitular, int anoValidade, int mesValidade, String modelo, double saldo) {
+			super(numCartao, nomeTitular, anoValidade, mesValidade, saldo);
+			this.modelo = modelo;
+		}
+
+		
+		public boolean comprar(double valor) {
+			if (this.saldo >= valor) {
+				this.saldo -= valor;
+				if (modelo ==0){
+					super.saldo += valor * 0.08;  //recompensa cartao gold
+					
+				}
+				else if(modelo == 1) {
+					super.saldo+=valor*0.05;	//recompesa cartao silver
+				}
+				else if(modelo == 2)
+					super.saldo+=valor*0.02;	// recompensa cartao bronze
+		}
+			return true;
+		}
+			return false;
+	}
+		
+		
+		public String getModelo() {
+			return modelo;
+		}
+
+		public void setModelo(String modelo) {
+			this.modelo = modelo;
+		}
+		
+	}	
+

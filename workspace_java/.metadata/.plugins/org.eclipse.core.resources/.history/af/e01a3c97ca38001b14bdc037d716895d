@@ -1,0 +1,36 @@
+package model;
+
+public class QuestoesSimples {
+
+	private String enunciado;
+	private String resposta;
+	
+	public String aplicarQuestao(String questao ) {
+		questao = enunciado;
+		return questao;	
+	}
+	
+	public boolean corrigir(String resposta) {
+		if (resposta.contentEquals(resposta)) {
+			return true;
+		}
+			return false;
+	}
+	
+	public String getEnunciado() {
+		return enunciado;
+	}
+	public void setEnunciado(String enunciado) {
+		this.enunciado = enunciado;
+	}
+	public String getResposta() {
+		return resposta;
+	}
+	public void setResposta(String resposta) {
+		this.resposta = resposta;
+	}
+	
+	
+	
+	
+}

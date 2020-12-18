@@ -1,0 +1,10 @@
+
+public class DadosConta {
+
+	private int 		NumeroDaConta;
+	private String		Titula;
+	private String		CPF;
+	private double		Saldo;
+	
+	
+}

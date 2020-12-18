@@ -1,0 +1,60 @@
+
+public class Desconto {
+	public static void main(String[] args) {
+		
+		Produto p1, p2, p3;
+		
+		p1 = new Produto ();
+		p2 = new Produto ();
+		p3 = new Produto ();
+		
+		
+		p1.CodBarras = 00001;
+		p1.Produto = "Celular 123";
+		p1.Preco = 100.00;
+		p1.Departamento = "Smartphone";
+		
+		System.out.println();
+		p1.imprimir();
+		
+		double Descp1 = p1.Desconto(10.0);
+		System.out.println("Desconto de 10% = "+Descp1);
+				
+		System.out.println("Valor Final");
+		
+					
+					
+		p2.CodBarras = 00002;
+		p2.Produto = " Calça";
+		p2.Preco = 50.00;
+		p2.Departamento = "Roupas";
+		
+		System.out.println();
+		p2.imprimir();
+		
+		double Descp2 = p2.Desconto(10.0);
+		System.out.println("Desconto de 10% = "+Descp1);
+				
+		System.out.println("Valor Final");
+		
+					
+				
+		p3.CodBarras = 00003;
+		p3.Produto = "Fone";
+		p3.Preco = 10.00;
+		p3.Departamento = "Acessórios";
+		
+		
+		System.out.println();
+		p3.imprimir();
+		
+		double Descp3 = p3.Desconto(10.0);
+		System.out.println("Desconto de 10% = "+Descp1);
+				
+		System.out.println("Valor Final");
+		
+					
+	}
+		
+	
+	}

@@ -1,0 +1,18 @@
+package Conta;
+
+public class Dados {
+
+	String nome;
+	String cpf;
+	int conta;
+	float saldo;
+	
+	float debitar;
+	float creditar;
+	
+	
+	// saldo não tem set
+	
+	
+	
+}

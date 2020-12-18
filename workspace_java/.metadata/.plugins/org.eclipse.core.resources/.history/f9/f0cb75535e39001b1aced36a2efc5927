@@ -1,0 +1,17 @@
+package userinterface;
+
+import model.Empreiteiro;
+import model.Funcionario;
+
+public class FolhaDePagamento {
+	public static void main(String[] args) {
+
+		Funcionario f[];
+		
+		f= new Funcionario[4];
+		
+
+
+		System.out.println();
+	}
+}

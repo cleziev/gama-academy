@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;model.CartaPrePago.java&apos; to &apos;CartaoPrePago.java&apos;&#x0D;&#x0A;- Original project: &apos;Projeto CashBack&apos;&#x0D;&#x0A;- Original element: &apos;model.CartaPrePago.java&apos;&#x0D;&#x0A;- Renamed element: &apos;model.CartaoPrePago.java&apos;" description="Rename compilation unit &apos;CartaPrePago.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;model{CartaPrePago.java" name="CartaoPrePago.java" references="false" stamp="1607360944802" version="1.0"/>
+</session>

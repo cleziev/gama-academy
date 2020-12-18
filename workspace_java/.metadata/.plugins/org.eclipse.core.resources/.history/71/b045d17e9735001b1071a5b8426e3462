@@ -1,0 +1,23 @@
+
+public class LojaVirtual {
+
+	int		CodBarras;
+	String  Produto;
+	double	Preco;
+	String	Departamento;
+	
+	
+	void imprimir () {
+		System.out.println("Código de Barras : "+CodBarras);
+		System.out.println("Produto : "+Produto);
+		System.out.println("Valor : R$ "+Preco);
+		System.out.println("Departamento: "+Departamento);
+
+	}
+	
+		void Desconto(double percentual) {
+		Preco = Preco - Preco*percentual/100;		
+	}
+
+	
+}

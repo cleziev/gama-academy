@@ -1,0 +1,26 @@
+
+public class Desconto {
+	public static void main(String[] args) {
+		
+		LojaVirtual p1, p2, p3, p4 = new LojaVirtual ();
+		
+		p1.CodBarras = 00001;
+		p1.Produto = "Celular 123";
+		p1.Preco = 100.00;
+		p1.Departamento = "Smartphone";
+				
+		p2.CodBarras = 00002;
+		p2.Produto = " Calça";
+		p2.Preco = 50.00;
+		p2.Departamento = "Roupas";
+				
+		p3.CodBarras = 00003;
+		p3.Produto = "Fone";
+		p3.Preco = 10.00;
+		p3.Departamento = "Acessórios";
+		
+	}
+		
+	
+	}
+}

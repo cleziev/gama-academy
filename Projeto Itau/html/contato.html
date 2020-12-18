@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gama Academy - Contato</title>
+
+        <!--fazendo a chamada do arquivo da  bliblioteca CSS-->
+        <link rel="stylesheet" href="../css/estilo.css">
+
+</head>
+
+<body>
+
+    <table border="0" width="100%" class="menu">
+        <tr>
+            <td> <a href="../html/index.html"> <img src="../image/logo.png" </a>
+            <td>
+                <!-- COMANDO PARA INSEIR UM LINK DO CONTATO PARA UM PAGINA DE CONTATO-->
+            <td align="center">QUEM SOMOS</td>
+            <td align="center"> CURSOS ONLINE</td>
+            <td align="center">GAMA EXPERIENCE</td>
+            <td align="center"> PARA EMPRESAS</td>
+            <td align="center">CONTATO</td>
+            <td align="center">CONTEÚDO</td>
+        </tr>
+    </table>
+
+    <!-- const  ruindo um formulario-->
+    <!-- metodo é post para encpsular as informações para o BD-->
+
+    <form id="form_contato" method="POST">
+        <fieldset><!--permite fazer a responsividade-->
+               <br> <legend><b>Preencha o nosso formulário para fazer um curso conosco</b></legend><br>
+        <label> Nome: </label><input type="text" name="nome" class="campo_insert" required><br><br> <!-- type text = conteudo tipo texto-->
+        <label> E-mail: </label><input type="email" name="email" class="campo_insert" required><br><br>
+        <label> Senha: </label><input type="password" name="senha" class="campo_insert" required><br><br>
+        <label> Genero: </label>
+            <input type="radio" name="opcao" value="Masculino" /> <span>Mascolino</span>
+            <input type="radio" name="opcao" value="Feminino" /> <span>Feminino</span>
+            <input type="radio" name="opcao" value="Não Informado" /> <span>Não Informado</span> <br><br>
+        <label> Informe a data que desejar cursar:  </label><input type="date" name="data"><br><br>
+        <label> Escolha o curso desejado:  </label>
+            <select required>
+                <option value=""></option>
+                <option value="CSS"> CSS </option>
+                <option value="HTML">HTML</option>
+                <option value="JS">JS</option>
+                <option value="XML">XML</option>
+           </select> <br><br>
+        <label> Escolha o período desejado:  </label>
+            <input type="checkbox"  name="opcap" value="manha"> <span>Manhã</span>
+            <input type="checkbox"  name="opcao" value="tarde"> <span>Tarde</span>
+            <input type="checkbox"  name="opcao" value="noite"> <span>Noite</span><br><br>
+        <label> Mensagem:</label><br>
+            <textarea cols="40" rows="4" name="mensagem"></textarea> <br><br>
+        <label> Anexar o comprovante de residência: </label> <input type="file" name="arquivo"><br><br>
+        <input type="submit" value="Enviar">
+
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>

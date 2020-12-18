@@ -1,0 +1,18 @@
+
+public class Carro {
+	
+	String marca;
+	String modelo;
+	int    ano;
+	String cor;
+	double preco;
+	
+	void imprimir(){
+		System.out.println("----CAROO----");
+		System.out.println("Marca: "+marca+" / "+modelo);
+		System.out.println("Ano :"+ano+" Cor: "+cor);
+		System.out.println("Preço: R$: "+preco);
+	}
+	
+
+}

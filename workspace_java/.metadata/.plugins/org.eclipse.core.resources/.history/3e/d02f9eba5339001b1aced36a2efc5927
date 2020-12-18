@@ -1,0 +1,18 @@
+package userinterface;
+
+import.model.Carros;
+import model.Veiculo;
+
+public class Estacionamento {
+	public static void main(String[] args) {
+		Veiculo v1;
+		
+		v1 = new Carro ("FIAT", "ABC3456", "URBANO");
+		
+		v1.acelerar();
+		v1.freiar();
+	}
+	
+		
+	}
+}

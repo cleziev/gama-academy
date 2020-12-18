@@ -1,0 +1,24 @@
+package userinterface;
+
+import model.Empreiteiro;
+import model.Funcionario;
+
+public class FolhaDePagamento {
+	public static void main(String[] args) {
+
+		Funcionario f[];
+		
+		f= new Funcionario[4];
+		
+		f[0] = new Horista ("File", 1345, 10.0,5);
+		f[1] = new Horista ("Edit", 0987, 20.0,5);
+		f[2] = new Horista ("Source", 7654, 30.0,5);
+		f[3] = new Horista ("Refactor", 1470, 50.0,5);
+		
+		for (int pos=0; pos(f.length;pos++)) {
+			System.out.println("Salario do "+f[pos].getNome()+" R$: "+f[pos].calcularSalario());
+		}
+
+		System.out.println();
+	}
+}

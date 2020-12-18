@@ -1,0 +1,14 @@
+package userinterface;
+
+public class Prova {
+	
+	public static void main(String[] args) {
+		
+		Scanner teclado = new Scanner (System.in);
+		QuestoesSimples simulado[];
+		
+		simulado = new QuestoesSimples[5];
+		simluado = new QuestoesMultipla("Qual a formula da agua?","H20", "H2A4","H202", )
+	}
+
+}

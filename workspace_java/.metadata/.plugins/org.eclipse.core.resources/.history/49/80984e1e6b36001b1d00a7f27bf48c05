@@ -1,0 +1,30 @@
+package Abestecimento;
+
+import DadosCombustivel.combustivel;
+
+public class noposto {
+	
+	public static void main(String[] args) {
+		
+		combustivel b1;
+		
+		
+		b1 = new combustivel();	
+		
+		
+		b1.setCombustivel("Gasolina");
+		b1.setValorLitro(3.00);
+		
+		System.out.println("Tipo do Combustivel: "+b1.getCombustivel());
+		System.out.println("Valor: R$ "+b1.getValorLitro());
+		b1.setQtdeLitro(10);
+		System.out.println();
+
+		
+		
+		
+		
+		
+	}
+
+}

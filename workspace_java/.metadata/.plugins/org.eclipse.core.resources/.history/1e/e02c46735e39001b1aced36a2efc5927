@@ -1,0 +1,39 @@
+package model;
+
+public class Horista {
+
+	private double 	valorHora;
+	private int		numHoras;
+	
+	
+	public Horista(double valorHora, int numHoras) {
+		super();
+		this.valorHora = valorHora;
+		this.numHoras = numHoras;
+	}
+
+	
+	
+
+	public double getValorHora() {
+		return valorHora;
+	}
+
+
+	public void setValorHora(double valorHora) {
+		this.valorHora = valorHora;
+	}
+
+
+	public int getNumHoras() {
+		return numHoras;
+	}
+
+
+	public void setNumHoras(int numHoras) {
+		this.numHoras = numHoras;
+	}
+	
+	
+	
+}

@@ -1,0 +1,15 @@
+package Conta;
+
+public class Banco {
+	public static void main(String[] args) {
+		
+		Conta c1 = new Dados
+				
+		c1.setConta(122445);
+		c1.setNome("Jose");
+		c1.setCpf("123.456.789-10");
+		
+		
+	
+}
+}

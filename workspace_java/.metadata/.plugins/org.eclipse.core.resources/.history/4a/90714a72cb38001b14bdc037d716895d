@@ -1,0 +1,25 @@
+package model;
+
+public class QuestoesDicas extends QuestoesSimples{
+
+	private String dica;
+		
+	public QuestoesDicas(String enunciado, String resposta, String dica) {
+		super(enunciado, resposta);
+		this.dica = dica;
+	}
+
+	public String aplicarQuestao() {
+		return "Q: "+super enunciado;
+		"\n  DICA: "+this.dica;
+		
+	}
+	
+	//public boolean corrigirQuestao(String respostaQuestao) {
+		//if (respostaQuestao,equals(respostas)) {
+			//return true;
+//		}
+	//		return false;
+	}
+	
+}

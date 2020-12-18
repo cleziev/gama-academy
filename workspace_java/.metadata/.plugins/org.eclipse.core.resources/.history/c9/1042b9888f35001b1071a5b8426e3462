@@ -1,0 +1,18 @@
+
+public class EmpregaAumento {
+	public static void main(String[] args) {
+		
+		Empregado e1 = new Empregado();
+		
+		e1.Nome = "Joao";
+		e1.Cargo = "Chefe";
+		e1.Salario = 1450.00;
+		
+				
+		
+		
+		
+		
+		
+	}
+}

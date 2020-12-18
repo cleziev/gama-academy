@@ -1,0 +1,10 @@
+package model;
+
+public class QuestoesDicas {
+
+	private String dica;
+	
+	public QuestoesDicas(String enunciado, String respostas, String dica) {
+			}
+	
+}

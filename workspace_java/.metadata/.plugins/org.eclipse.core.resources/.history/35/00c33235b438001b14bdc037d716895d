@@ -1,0 +1,16 @@
+package userinterface;
+
+public class Party {
+
+	public static void main(String[] args) {
+		
+	
+		CartaoPrepago c1 = new CartaoPrepago ("1234", "José", 2020, 12, 0.0);
+	
+		System.out.println("Carregar 100,00");
+		c1.creditar (100,00);
+		System.out.println(c1);
+	}
+	
+}
+//(String numCartao, String nomeTitular, int anoValidade, int mesValidade, double saldo)

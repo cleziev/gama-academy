@@ -1,0 +1,53 @@
+package DadosCombustivel;
+
+public class combustivel {
+
+	private String 	combustivel;
+	private double 	valorLitro;
+	private double	qtdeLitro;
+	private double	valorTotal;
+	
+	public combustivel(String nome, double preco) {
+		this.combustivel = nome;
+		this.valorLitro = preco;
+		this.qtdeLitro = 0.0;
+		this.valorTotal = 0.0;
+	}
+	
+	public String exibirRecibo();
+	
+	
+	
+	
+	
+	
+	
+	
+
+		
+	public String getCombustivel() {
+		return combustivel;
+	}
+	public void setCombustivel(String combustivel) {
+		this.combustivel = combustivel;
+	}
+	public double getValorLitro() {
+		return valorLitro;
+	}
+	public void setValorLitro(double valorLitro) {
+		this.valorLitro = valorLitro;
+	}
+	public double getQtdeLitro() {
+		return qtdeLitro;
+	}
+	public void setQtdeLitro(double qtdeLitro) {
+		this.qtdeLitro = qtdeLitro;
+	}
+	public double getValorTotal() {
+		return valorTotal;
+	}
+	public void setValorTotal(double valorTotal) {
+		this.valorTotal = valorTotal;
+	}
+	
+}

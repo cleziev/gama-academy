@@ -1,0 +1,21 @@
+package model;
+
+public class CartaoPrePago {
+
+	protected String numCartao;
+	protected String nomeTitular;
+	protected int    anoValidade;
+	protected int    mesValidade;
+	protected double saldo;
+	
+public cartaoPrePago(String numCartao, String nomeTitular, int anoValidade, int mesValidade, double saldo) {
+		
+		this.numCartao = numCartao;
+		this.nomeTitular = nomeTitular;
+		this.anoValidade = anoValidade;
+		this.mesValidade = mesValidade;
+		this.saldo = saldo;
+	}
+	
+	
+}

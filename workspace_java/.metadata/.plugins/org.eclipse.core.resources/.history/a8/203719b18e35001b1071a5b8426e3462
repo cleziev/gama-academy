@@ -1,0 +1,16 @@
+
+public class Empregado {
+	
+	String Nome;
+	String Cargo;
+	double Salario;
+	
+	void imprimir () {
+		System.out.println("Empregado :"+nome);
+		System.out.println("Cargo :"+cargo);
+		System.out.println("Salario R$ %.2f%n"+salario);
+		
+	}
+
+	
+}

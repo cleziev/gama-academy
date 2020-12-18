@@ -1,0 +1,18 @@
+package Conta;
+
+public class Dados {
+
+	protected String nome;
+	protected String cpf;
+	protected int conta;
+	protected float saldo;
+	
+	protected float debitar;
+	protected float creditar;
+	
+	
+	// saldo não tem set
+	
+	
+	
+}

@@ -1,0 +1,24 @@
+package model;
+
+	public class CashBack extends CartaoPrePago{
+		
+		private String modelo;
+		
+		public CashBack(String numCartao, String nomeTitular, int anoValidade, int mesValidade, String modelo, double saldo) {
+			super(numCartao, nomeTitular, anoValidade, mesValidade, saldo);
+			this.modelo = modelo;
+		}
+
+		public double getModelo() {
+			return modelo;
+		}
+
+		public void setModelo(double limite) {
+			this.modelo = modelo;
+		}
+		
+		
+		
+
+	}	
+

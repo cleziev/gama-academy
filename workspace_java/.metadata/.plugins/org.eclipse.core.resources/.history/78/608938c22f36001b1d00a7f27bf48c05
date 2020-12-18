@@ -1,0 +1,53 @@
+
+public class DadosConta {
+
+	private int 		NumeroDaConta;
+	private String		Titular;
+	private String		CPF;
+	private double		Saldo;
+	
+	
+	public int getNumeroDaConta() {
+		return NumeroDaConta;
+	}
+	public void setNumeroDaConta(int numeroDaConta) {
+		NumeroDaConta = numeroDaConta;
+	}
+	public String getTitula() {
+		return Titular;
+	}
+	public void setTitular(String titula) {
+		Titular = titular;
+	}
+	public String getCPF() {
+		return CPF;
+	}
+	public void setCPF(String cPF) {
+		CPF = cPF;
+	}
+	public double getSaldo() {
+		return Saldo;
+	}
+	public void setSaldo(double saldo) {
+		Saldo = saldo;
+	}
+	
+	public void Deposito(double VDepositado) {
+		Saldo = Saldo + VDepositado;
+		
+	}
+	
+	public String exibirDadosConta() {
+		String resultado = "Número da Conta "+NumeroDaConta+" \nTitula: "+departamento+" R$ "+preco;
+		return resultado;
+	}
+
+	}
+	
+		double Desconto(double percentual) {
+			
+			return Preco - Preco*percentual/100;
+		
+	
+	
+}
